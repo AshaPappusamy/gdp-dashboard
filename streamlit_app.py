@@ -4,7 +4,7 @@ import sqlalchemy as sa
 st.write("SQLAlchemy version:",sa.__version__)
 from sqlalchemy import create_engine, text
 
-# Connect to the database (replace with your own credentials)
+# Connect to the database 
 engine = create_engine("mysql+mysqlconnector://username:password@host:port/Asteroidsnew")
 
 st.set_page_config(page_title="NASA Asteroid Dashboard", layout="wide")
